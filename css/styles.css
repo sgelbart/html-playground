@@ -1,0 +1,56 @@
+body{
+	font-family: sans-serif;
+}
+
+h1{
+	font-family: serif;
+	font-size: 72px;
+}
+
+h2{
+	border-bottom: 2px solid purple;
+}
+
+h3{
+	font-weight: bold;
+}
+
+.btn{
+	background-color:orange;
+	padding:5px 10px;
+	text-decoration:none;
+}
+.margin-padding-shorthand{
+	/* numbers go clockwise, so first number is top, second is left, third is bottom, fourth is right */
+	margin: 20px 60px 10px 0px;
+	padding: 10px 20px; /* it top/bottom and left/right have same numbers you can write like this */
+	/* you could also do like: padding: 10px; (which would say ALL padding is 10px)*/
+}
+.semi-transparent{
+	/* the 0.5 here says to make the background color 50% transparent */
+	background-color: rgba(79, 129, 188, 0.5);
+}
+.extra-padding{
+	padding-top: 10px;
+	padding-bottom: 40px;
+	padding-right: 100px;
+	padding-left: 50px;
+}
+.extra-margin{
+	margin-top: 20px;
+	margin-bottom:40px;
+	margin-right: 100px;
+	margin-left: 200px;
+}
+.border{
+	border: 2px solid orange;
+}
+.wrap{
+	max-width: 600px;
+	margin: 20px auto;
+}
+.hex-bg-color{
+	background-color: #46395e;
+	color:white;
+}
+			
